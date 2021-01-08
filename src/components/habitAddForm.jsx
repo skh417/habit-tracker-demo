@@ -1,7 +1,7 @@
 import React, { memo } from "react";
 
 const HabitAddForm = memo((props) => {
-  console.log("habit add form mounted");
+  console.log("habit add form mounted!");
   const inputRef = React.createRef();
 
   const onSubmit = (event) => {
